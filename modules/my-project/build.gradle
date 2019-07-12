@@ -1,0 +1,11 @@
+replaceSoyTranslation.enabled=false
+buildCSS.enabled=false
+compileJava.enabled=false
+processResources.enabled=false
+build.enabled=false
+deploy.enabled=false
+jar.enabled=false
+
+classes {
+  dependsOn npmRunDeploy
+}
